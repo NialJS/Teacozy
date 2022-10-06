@@ -1,0 +1,115 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  
+}
+h1, h2, h3, h4, p {
+  color: gray;
+}
+.header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  margin-bottom: 50px;
+  z-index: 2;
+  top: 10px;
+  
+}
+
+.logo {
+  height: 50px;
+   color: gray;
+   margin-right: 1170px;
+   padding-left: 10px;
+}
+.location, .featured, .mission {
+  color: gray;
+  padding-left: 30px;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 10px;
+  text-decoration: underline;
+  
+}
+.main {
+  background-color: white;
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+  background-image: url(/images/background1.jpg);
+  opacity: 0.7;
+  
+}
+
+.T1  {
+  background-color: black;
+  height: 200px;
+  color: gray;
+  width: 1200px;
+  text-align: center;
+  justify-content: center;
+  top: 300px;
+  position: relative;
+  font-size: 30px;
+  
+  
+}
+ .middle {
+  margin-top: 40px;
+  text-align: center;
+ }
+ img {
+  height: 200px;
+  width: 300px;
+  margin: 10px 20px;
+ }
+ .row {
+  display: flex;
+  margin: 20px 20px;
+  justify-content: center;
+  height: 500px;
+  flex-wrap:wrap
+    }   
+
+.row h2 {
+  margin: 0 80px;
+  margin-bottom: 200px;
+  
+}
+.bottom {
+  background-color: white;
+  height: 600px;
+  width: 1200px;
+  margin: auto;
+  background-image: url(/images/background.jpg);
+  opacity: 0.7;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+}
+.box {
+background-color: black;
+height:200px;
+width: 300px;
+margin: auto;
+}
+footer {
+  margin-top: 50px;
+  display: flex;
+  height: 200px;
+  width: 100%;
+  
+  text-align: center;
+  justify-content: center;
+  font-size: 23px;
+  color: gray;
+}
+
+.final {
+  position: absolute;
+  left: 0;
+  font-size: 15px;
+  padding-left: 10px;
+}
